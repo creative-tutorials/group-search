@@ -5,12 +5,7 @@ import { MapPin, UserRound, UsersRound, Lock, Group } from "lucide-react";
 import { useState } from "react";
 import axios from "axios";
 import { toast } from "sonner";
-import {
-  QueryClient,
-  useMutation,
-  useQuery,
-  useQueryClient,
-} from "@tanstack/react-query";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 
 type GroupData = {
   name: string;
